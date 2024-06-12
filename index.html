@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+	<title></title>
+</head>
+<body>
+
+
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-4 col section-1">
+				<div class="filter-section">
+                    <b><p>Filter by:</p></b>
+                    <b><p>Popular filters</p></b>
+                    <div class="form-group row">
+                        <input class="check-box" type="checkbox" name="cb">
+                        <label class="col-form-label ml-2">Hotel</label>
+                        <div class="num1">71</div>
+                    </div>
+                    <div class="form-group row">
+                        <input class="check-box" type="checkbox" name="cb">
+                        <label class="col-form-label ml-2">Hostels</label>
+                        <div class="num1">1</div>
+                    </div>
+                    <div class="form-group row">
+                        <input class="check-box" type="checkbox" name="cb">
+                        <label class="col-form-label ml-2">5 Star</label>
+                        <div class="num1">6</div>
+                    </div>
+                    <div class="form-group row">
+                        <input class="check-box" type="checkbox" name="cb">
+                        <label class="col-form-label ml-2">F-7 Sector</label>
+                        <div class="num1">22</div>
+                    </div>
+                    <div class="form-group row">
+                        <input class="check-box" type="checkbox" name="cb">
+                        <label class="col-form-label ml-2">Spa bath</label>
+                        <div class="num1">11</div>
+                    </div>
+                    <div class="form-group row">
+                        <input class="check-box" type="checkbox" name="cb">
+                        <label class="col-form-label ml-2">Room Service</label>
+                        <div class="num1">186</div>
+                    </div>
+                    <div class="form-group row">
+                        <input class="check-box" type="checkbox" name="cb">
+                        <label class="col-form-label ml-2">Kitchen</label>
+                        <div class="num1">223</div>
+                    </div>
+                    <div class="form-group row">
+                        <input class="check-box" type="checkbox" name="cb">
+                        <label class="col-form-label ml-2">Swimming pool</label>
+                        <div class="num1">12</div>
+                    </div>
+                    <div class="separator"></div>
+                    <b><p class="p1">Sustainability</p></b>
+                    <div class="form-group row">
+                        <input class="check-box" type="checkbox" name="cb">
+                        <label class="col-form-label ml-2">
+                            Travel Sustainable properties
+                            <p class="form-text text-muted">Properties taking steps to make your stay more sustainable</p>
+                        </label>
+                    </div>
+                    <div class="separator"></div>
+                    <b><p>Property rating</p></b>
+                    <small class="form-text text-muted">Includes stars and other ratings</small>
+                    <div class="form-group row">
+                        <input class="check-box" type="checkbox" name="cb">
+                        <label class="col-form-label ml-2">1 Star</label>
+                        <div class="num1">3</div>
+                    </div>
+                    <div class="form-group row">
+                        <input class="check-box" type="checkbox" name="cb">
+                        <label class="col-form-label ml-2">2 Star</label>
+                        <div class="num1">15</div>
+                    </div>
+                    <div class="form-group row">
+                        <input class="check-box" type="checkbox" name="cb">
+                        <label class="col-form-label ml-2">3 Star</label>
+                        <div class="num1">112</div>
+                    </div>
+                    <div class="form-group row">
+                        <input class="check-box" type="checkbox" name="cb">
+                        <label class="col-form-label ml-2">4 Star</label>
+                        <div class="num1">46</div>
+                    </div>
+                    <div class="form-group row">
+                        <input class="check-box" type="checkbox" name="cb">
+                        <label class="col-form-label ml-2">5 Star</label>
+                        <div class="num1">6</div>
+                    </div>
+                    <div class="form-group row">
+                        <input class="check-box" type="checkbox" name="cb">
+                        <label class="col-form-label ml-2">Unread</label>
+                        <div class="num1">227</div>
+                    </div>
+                    <div class="separator"></div>
+                    <b><p>Distance from centre of Islamabad</p></b>
+                    <div class="form-group row">
+                        <input class="check-box" type="checkbox" name="cb">
+                        <label class="col-form-label ml-2">Less than 1 km</label>
+                        <div class="num1">6</div>
+                    </div>
+                    <div class="form-group row">
+                        <input class="check-box" type="checkbox" name="cb">
+                        <label class="col-form-label ml-2">Less than 3 km</label>
+                        <div class="num1">43</div>
+                    </div>
+                    <div class="form-group row">
+                        <input class="check-box" type="checkbox" name="cb">
+                        <label class="col-form-label ml-2">Less than 5 km</label>
+                        <div class="num1">112</div>
+                    </div>
+                    <div class="separator"></div>
+                    <b><p>Fun things to do</p></b>
+                    <div class="form-group row">
+                        <input class="check-box" type="checkbox" name="cb">
+                        <label class="col-form-label ml-2">Hiking</label>
+                        <div class="num1">112</div>
+                    </div>
+                    <div class="form-group row">
+                        <input class="check-box" type="checkbox" name="cb">
+                        <label class="col-form-label ml-2">Hot tub/Jacuzzi</label>
+                        <div class="num1">112</div>
+                    </div>
+                    <div class="form-group row">
+                        <input class="check-box" type="checkbox" name="cb">
+                        <label class="col-form-label ml-2">Walking tours</label>
+                        <div class="num1">112</div>
+                    </div>
+                    <div class="form-group row">
+                        <input class="check-box" type="checkbox" name="cb">
+                        <label class="col-form-label ml-2">Bicycle rental</label>
+                        <div class="num1">112</div>
+                    </div>
+                    <div class="form-group row">
+                        <input class="check-box" type="checkbox" name="cb">
+                        <label class="col-form-label ml-2">Children's playground</label>
+                        <div class="num1">112</div>
+                    </div>
+                    <div class="container-custom">
+                        <h5>Entire places</h5>
+                        <div class="form-group row">
+                            <input class="check-box" type="checkbox" name="cb">
+                            <label class="col-form-label ml-2">Entire homes & apartments</label>
+                        </div>
+                    </div>
+                    <div class="container-custom">
+                        <h5>Property type</h5>
+                        <div class="form-group row">
+                            <input class="check-box" type="checkbox" name="cb">
+                            <label class="col-form-label ml-2">Apartments</label>
+                            <div class="num1">165</div>
+                        </div>
+                        <div class="form-group row">
+                            <input class="check-box" type="checkbox" name="cb">
+                            <label class="col-form-label ml-2">Guest houses</label>
+                            <div class="num1">203</div>
+                        </div>
+                        <div class="form-group row">
+                            <input class="check-box" type="checkbox" name="cb">
+                            <label class="col-form-label ml-2">Hotels</label>
+                            <div class="num1">71</div>
+                        </div>
+                        <div class="form-group row">
+                            <input class="check-box" type="checkbox" name="cb">
+                            <label class="col-form-label ml-2">Hostels</label>
+                            <div class="num1">1</div>
+                        </div>
+                    </div>
+                    <div class="container-custom">
+                    	<h5>Landmark</h5>
+                    	<div class="form-group row">
+                    		<input class="check-box" type="checkbox" name="cb">
+                    		<label class="col-form-label ml-2">The Centaurus Mall</label>
+                    		<div class="num1">47</div>
+                    	</div>
+                    	<div class="form-group row">
+                    		<input class="check-box" type="checkbox" name="cb">
+                    		<label class="col-form-label ml-2">Pakistan Monument</label>
+                    		<div class="num1">7</div>
+                    	</div>
+                    </div>
+                    <div class="container-custom">
+                    	<h5>Review score</h5>
+                    	<div class="form-group row">
+                    		<input class="check-box" type="checkbox" name="cb">
+                    		<label class="col-form-label ml-2">Superb: 9+</label>
+                    		<div class="num1">374</div>
+                    	</div>
+                    	<div class="form-group row">
+                    		<input class="check-box" type="checkbox" name="cb">
+                    		<label class="col-form-label ml-2">Very good: 8+</label>
+                    		<div class="num1">829</div>
+                    	</div>
+                    	<div class="form-group row">
+                    		<input class="check-box" type="checkbox" name="cb">
+                    		<label class="col-form-label ml-2">Good: 7+</label>
+                    		<div class="num1">74</div>
+                    	</div>
+                    	<div class="form-group row">
+                    		<input class="check-box" type="checkbox" name="cb">
+                    		<label class="col-form-label ml-2">Pleasant: 6+</label>
+                    		<div class="num1">34</div>
+                    	</div>
+                    </div>
+                    <div class="container-custom">
+                    	<h5>Facilities</h5>
+                    	<div class="form-group row">
+                    		<input class="check-box" type="checkbox" name="cb">
+                    		<label class="col-form-label ml-2">Superb: 9+</label>
+                    		<div class="num1">7342</div>
+                    	</div>
+                    	<div class="form-group row">
+                    		<input class="check-box" type="checkbox" name="cb">
+                    		<label class="col-form-label ml-2">Private pool</label>
+                    		<div class="num1">73</div>
+                    	</div>
+                    	<div class="form-group row">
+                    		<input class="check-box" type="checkbox" name="cb">
+                    		<label class="col-form-label ml-2">Sea view</label>
+                    		<div class="num1">9032</div>
+                    	</div><div class="form-group row">
+                    		<input class="check-box" type="checkbox" name="cb">
+                    		<label class="col-form-label ml-2">Air conditioning</label>
+                    		<div class="num1">643</div>
+                    	</div>
+                    	<div class="form-group row">
+                    		<input class="check-box" type="checkbox" name="cb">
+                    		<label class="col-form-label ml-2">Private bathroom</label>
+                    		<div class="num1">437</div>
+                    	</div>
+                    	<div class="form-group row">
+                    		<input class="check-box" type="checkbox" name="cb">
+                    		<label class="col-form-label ml-2">Kitchen/kitchenette</label>
+                    		<div class="num1">804</div>
+                    	</div>
+                    	<div class="form-group row">
+                    		<input class="check-box" type="checkbox" name="cb">
+                    		<label class="col-form-label ml-2">Balcony</label>
+                    		<div class="num1">34</div>
+                    	</div>
+                    	<div class="form-group row">
+                    		<input class="check-box" type="checkbox" name="cb">
+                    		<label class="col-form-label ml-2">Shower</label>
+                    		<div class="num1">5</div>
+                    	</div>
+                    	<div class="form-group row">
+                    		<input class="check-box" type="checkbox" name="cb">
+                    		<label class="col-form-label ml-2">Refrigerator</label>
+                    		<div class="num1">735</div>
+                    	</div>
+                    	<div class="form-group row">
+                    		<input class="check-box" type="checkbox" name="cb">
+                    		<label class="col-form-label ml-2">TV</label>
+                    		<div class="num1">2</div>
+                    	</div>
+                    	<div class="form-group row">
+                    		<input class="check-box" type="checkbox" name="cb">
+                    		<label class="col-form-label ml-2">Toilet</label>
+                    		<div class="num1">34</div>
+                    	</div>
+                    	<div class="form-group row">
+                    		<input class="check-box" type="checkbox" name="cb">
+                    		<label class="col-form-label ml-2">Hot tub</label>
+                    		<div class="num1">64</div>
+                    	</div>
+                    	<div class="form-group row">
+                    		<input class="check-box" type="checkbox" name="cb">
+                    		<label class="col-form-label ml-2">Terrace</label>
+                    		<div class="num1">234</div>
+                    	</div>
+                    	<div class="form-group row">
+                    		<input class="check-box" type="checkbox" name="cb">
+                    		<label class="col-form-label ml-2">Pool with a view</label>
+                    		<div class="num1">54</div>
+                    	</div>
+                    	<div class="form-group row">
+                    		<input class="check-box" type="checkbox" name="cb">
+                    		<label class="col-form-label ml-2">Towels</label>
+                    		<div class="num1">3</div>
+                    	</div>
+                    	<div class="form-group row">
+                    		<input class="check-box" type="checkbox" name="cb">
+                    		<label class="col-form-label ml-2">Toilet paper</label>
+                    		<div class="num1">263</div>
+                    	</div>
+                    	<div class="form-group row">
+                    		<input class="check-box" type="checkbox" name="cb">
+                    		<label class="col-form-label ml-2">Spa bath</label>
+                    		<div class="num1">938</div>
+                    	</div>
+                    	<div class="form-group row">
+                    		<input class="check-box" type="checkbox" name="cb">
+                    		<label class="col-form-label ml-2">Hairdryer</label>
+                    		<div class="num1">724</div>
+                    	</div>
+                    	<div class="form-group row">
+                    		<input class="check-box" type="checkbox" name="cb">
+                    		<label class="col-form-label ml-2">View</label>
+                    		<div class="num1">384</div>
+                    	</div><div class="form-group row">
+                    		<input class="check-box" type="checkbox" name="cb">
+                    		<label class="col-form-label ml-2">Rooftop pool</label>
+                    		<div class="num1">743</div>
+                    	</div>
+                    	<div class="form-group row">
+                    		<input class="check-box" type="checkbox" name="cb">
+                    		<label class="col-form-label ml-2">Coffee/tea maker</label>
+                    		<div class="num1">47</div>
+                    	</div>
+                    	<div class="form-group row">
+                    		<input class="check-box" type="checkbox" name="cb">
+                    		<label class="col-form-label ml-2">Bath</label>
+                    		<div class="num1">769</div>
+                    	</div>
+                    	<div class="form-group row">
+                    		<input class="check-box" type="checkbox" name="cb">
+                    		<label class="col-form-label ml-2">Tea/Coffee maker</label>
+                    		<div class="num1">569</div>
+                    	</div>
+                    	<div class="form-group row">
+                    		<input class="check-box" type="checkbox" name="cb">
+                    		<label class="col-form-label ml-2">Flat-screen TV</label>
+                    		<div class="num1">54</div>
+                    	</div>
+                    	<div class="form-group row">
+                    		<input class="check-box" type="checkbox" name="cb">
+                    		<label class="col-form-label ml-2">Infinity pool</label>
+                    		<div class="num1">3524</div>
+                    	</div>
+                    	<div class="form-group row">
+                    		<input class="check-box" type="checkbox" name="cb">
+                    		<label class="col-form-label ml-2">Socket near the bed</label>
+                    		<div class="num1">32</div>
+                    	</div>
+                    </div>
+                    <div class="container-custom">
+                    	<h5>Neighbourhood</h5>
+                    	<div class="form-group row">
+                    		<input class="check-box" type="checkbox" name="cb">
+                    		<label class="col-form-label ml-2">E-11 Secto</label>
+                    		<div class="num1">635</div>
+                    	</div>
+                    	<div class="form-group row">
+                    		<input class="check-box" type="checkbox" name="cb">
+                    		<label class="col-form-label ml-2">Blue Area</label>
+                    		<div class="num1">94</div>
+                    	</div>
+                    	<div class="form-group row">
+                    		<input class="check-box" type="checkbox" name="cb">
+                    		<label class="col-form-label ml-2">G-9 Sector</label>
+                    		<div class="num1">2634</div>
+                    	</div>
+                    	<div class="form-group row">
+                    		<input class="check-box" type="checkbox" name="cb">
+                    		<label class="col-form-label ml-2">Flat-screen TV</label>
+                    		<div class="num1">235</div>
+                    	</div>
+                    	<div class="form-group row">
+                    		<input class="check-box" type="checkbox" name="cb">
+                    		<label class="col-form-label ml-2">F-7 Sector</label>
+                    		<div class="num1">3452</div>
+                    	</div>
+                    	<div class="form-group row">
+                    		<input class="check-box" type="checkbox" name="cb">
+                    		<label class="col-form-label ml-2">F-6 Sector</label>
+                    		<div class="num1">2</div>
+                    	</div>
+                    	<div class="form-group row">
+                    		<input class="check-box" type="checkbox" name="cb">
+                    		<label class="col-form-label ml-2">Flat-screen TV</label>
+                    		<div class="num1">234</div>
+                    	</div>
+                    	<div class="form-group row">
+                    		<input class="check-box" type="checkbox" name="cb">
+                    		<label class="col-form-label ml-2">F-8 Sector</label>
+                    		<div class="num1">75</div>
+                    	</div>
+                    	<div class="form-group row">
+                    		<input class="check-box" type="checkbox" name="cb">
+                    		<label class="col-form-label ml-2">G-6 Sector</label>
+                    		<div class="num1">859</div>
+                    	</div>
+                    	<div class="form-group row">
+                    		<input class="check-box" type="checkbox" name="cb">
+                    		<label class="col-form-label ml-2">G-8 Sector</label>
+                    		<div class="num1">3</div>
+                    	</div>
+                    	<div class="form-group row">
+                    		<input class="check-box" type="checkbox" name="cb">
+                    		<label class="col-form-label ml-2">I-8 Sector</label>
+                    		<div class="num1">748</div>
+                    	</div>
+                    	<div class="form-group row">
+                    		<input class="check-box" type="checkbox" name="cb">
+                    		<label class="col-form-label ml-2">G-7 Sector</label>
+                    		<div class="num1">937</div>
+                    	</div>
+                    	<div class="form-group row">
+                    		<input class="check-box" type="checkbox" name="cb">
+                    		<label class="col-form-label ml-2">E-7 Sector</label>
+                    		<div class="num1">2398</div>
+                    	</div>
+                    	<div class="form-group row">
+                    		<input class="check-box" type="checkbox" name="cb">
+                    		<label class="col-form-label ml-2">I-9 Sector</label>
+                    		<div class="num1">98</div>
+                    	</div>
+                    	<div class="form-group row">
+                    		<input class="check-box" type="checkbox" name="cb">
+                    		<label class="col-form-label ml-2">I-11 Sector</label>
+                    		<div class="num1">2</div>
+                    	</div>
+                    </div>
+                </div>
+			</div>
+			<div class="col-xl-8 col-lg-12 col-md-12 col-12">
+				<div class="card">
+					<div class="card-body">
+						<div class="row">
+					  		<div class="col-xl-3 col-lg-3 col-md-2 col-12">
+					  			 <img class="img img1 img2 img3 img4" src="https://cf.bstatic.com/xdata/images/hotel/square600/263823251.webp?k=33d4e521257884585d729cba1165f21e1d0e0c66e993eea58b46b9edd2059c1a&o=">
+							</div>
+							<div class="col-xl-5 col-md-5 col-12 class1 class2 class3">
+								<h3>Shelton Guest House</h3>
+	                				<a class="link" href="#">F-8 Sector, Islamabad</a>
+	                				<a class="link link1" href="#">Show on map</a>
+	                				<p class="link">4.6 km from centre <br> Located in Islamabad, within 1.9 km of Shah Faisal Mosque and 14 km of Lake View Park, Shelton Guest House provides accommodation with a garden and free WiFi throughout the property as well as free...</p>
+							</div>
+							<div class="col-xl-3 col-md-3 col-12">
+								<h5 class="h5">Very good</h5>
+	                				<br>
+	                				<p class="p2">262 reviews</p>
+	                			<b>	
+	                				<p class="p3 p4">8.2</p>
+	                			</b>
+	                			<button class="btn" type="button">Show Price</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<br>
+				<div class="card">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-xl-3 col-lg-3 col-md-2 col-12">
+                                 <img class="img img1 img2 img3 img4" src="https://cf.bstatic.com/xdata/images/hotel/square600/263823251.webp?k=33d4e521257884585d729cba1165f21e1d0e0c66e993eea58b46b9edd2059c1a&o=">
+                            </div>
+                            <div class="col-xl-5 col-md-5 col-12 class1 class2 class3">
+                                <h3>Shelton Guest House</h3>
+                                    <a class="link" href="#">F-8 Sector, Islamabad</a>
+                                    <a class="link link1" href="#">Show on map</a>
+                                    <p class="link">4.6 km from centre <br> Located in Islamabad, within 1.9 km of Shah Faisal Mosque and 14 km of Lake View Park, Shelton Guest House provides accommodation with a garden and free WiFi throughout the property as well as free...</p>
+                            </div>
+                            <div class="col-xl-3 col-md-3 col-12">
+                                <h5 class="h5">Very good</h5>
+                                    <br>
+                                    <p class="p2">262 reviews</p>
+                                <b> 
+                                    <p class="p3 p4">8.2</p>
+                                </b>
+                                <button class="btn" type="button">Show Price</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-xl-3 col-lg-3 col-md-2 col-12">
+                                 <img class="img img1 img2 img3 img4" src="https://cf.bstatic.com/xdata/images/hotel/square600/263823251.webp?k=33d4e521257884585d729cba1165f21e1d0e0c66e993eea58b46b9edd2059c1a&o=">
+                            </div>
+                            <div class="col-xl-5 col-md-5 col-12 class1 class2 class3">
+                                <h3>Shelton Guest House</h3>
+                                    <a class="link" href="#">F-8 Sector, Islamabad</a>
+                                    <a class="link link1" href="#">Show on map</a>
+                                    <p class="link">4.6 km from centre <br> Located in Islamabad, within 1.9 km of Shah Faisal Mosque and 14 km of Lake View Park, Shelton Guest House provides accommodation with a garden and free WiFi throughout the property as well as free...</p>
+                            </div>
+                            <div class="col-xl-3 col-md-3 col-12">
+                                <h5 class="h5">Very good</h5>
+                                    <br>
+                                    <p class="p2">262 reviews</p>
+                                <b> 
+                                    <p class="p3 p4">8.2</p>
+                                </b>
+                                <button class="btn" type="button">Show Price</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-xl-3 col-lg-3 col-md-2 col-12">
+                                 <img class="img img1 img2 img3 img4" src="https://cf.bstatic.com/xdata/images/hotel/square600/263823251.webp?k=33d4e521257884585d729cba1165f21e1d0e0c66e993eea58b46b9edd2059c1a&o=">
+                            </div>
+                            <div class="col-xl-5 col-md-5 col-12 class1 class2 class3">
+                                <h3>Shelton Guest House</h3>
+                                    <a class="link" href="#">F-8 Sector, Islamabad</a>
+                                    <a class="link link1" href="#">Show on map</a>
+                                    <p class="link">4.6 km from centre <br> Located in Islamabad, within 1.9 km of Shah Faisal Mosque and 14 km of Lake View Park, Shelton Guest House provides accommodation with a garden and free WiFi throughout the property as well as free...</p>
+                            </div>
+                            <div class="col-xl-3 col-md-3 col-12">
+                                <h5 class="h5">Very good</h5>
+                                    <br>
+                                    <p class="p2">262 reviews</p>
+                                <b> 
+                                    <p class="p3 p4">8.2</p>
+                                </b>
+                                <button class="btn" type="button">Show Price</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-xl-3 col-lg-3 col-md-2 col-12">
+                                 <img class="img img1 img2 img3 img4" src="https://cf.bstatic.com/xdata/images/hotel/square600/263823251.webp?k=33d4e521257884585d729cba1165f21e1d0e0c66e993eea58b46b9edd2059c1a&o=">
+                            </div>
+                            <div class="col-xl-5 col-md-5 col-12 class1 class2 class3">
+                                <h3>Shelton Guest House</h3>
+                                    <a class="link" href="#">F-8 Sector, Islamabad</a>
+                                    <a class="link link1" href="#">Show on map</a>
+                                    <p class="link">4.6 km from centre <br> Located in Islamabad, within 1.9 km of Shah Faisal Mosque and 14 km of Lake View Park, Shelton Guest House provides accommodation with a garden and free WiFi throughout the property as well as free...</p>
+                            </div>
+                            <div class="col-xl-3 col-md-3 col-12">
+                                <h5 class="h5">Very good</h5>
+                                    <br>
+                                    <p class="p2">262 reviews</p>
+                                <b> 
+                                    <p class="p3 p4">8.2</p>
+                                </b>
+                                <button class="btn" type="button">Show Price</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-xl-3 col-lg-3 col-md-2 col-12">
+                                 <img class="img img1 img2 img3 img4" src="https://cf.bstatic.com/xdata/images/hotel/square600/263823251.webp?k=33d4e521257884585d729cba1165f21e1d0e0c66e993eea58b46b9edd2059c1a&o=">
+                            </div>
+                            <div class="col-xl-5 col-md-5 col-12 class1 class2 class3">
+                                <h3>Shelton Guest House</h3>
+                                    <a class="link" href="#">F-8 Sector, Islamabad</a>
+                                    <a class="link link1" href="#">Show on map</a>
+                                    <p class="link">4.6 km from centre <br> Located in Islamabad, within 1.9 km of Shah Faisal Mosque and 14 km of Lake View Park, Shelton Guest House provides accommodation with a garden and free WiFi throughout the property as well as free...</p>
+                            </div>
+                            <div class="col-xl-3 col-md-3 col-12">
+                                <h5 class="h5">Very good</h5>
+                                    <br>
+                                    <p class="p2">262 reviews</p>
+                                <b> 
+                                    <p class="p3 p4">8.2</p>
+                                </b>
+                                <button class="btn" type="button">Show Price</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-xl-3 col-lg-3 col-md-2 col-12">
+                                 <img class="img img1 img2 img3 img4" src="https://cf.bstatic.com/xdata/images/hotel/square600/263823251.webp?k=33d4e521257884585d729cba1165f21e1d0e0c66e993eea58b46b9edd2059c1a&o=">
+                            </div>
+                            <div class="col-xl-5 col-md-5 col-12 class1 class2 class3">
+                                <h3>Shelton Guest House</h3>
+                                    <a class="link" href="#">F-8 Sector, Islamabad</a>
+                                    <a class="link link1" href="#">Show on map</a>
+                                    <p class="link">4.6 km from centre <br> Located in Islamabad, within 1.9 km of Shah Faisal Mosque and 14 km of Lake View Park, Shelton Guest House provides accommodation with a garden and free WiFi throughout the property as well as free...</p>
+                            </div>
+                            <div class="col-xl-3 col-md-3 col-12">
+                                <h5 class="h5">Very good</h5>
+                                    <br>
+                                    <p class="p2">262 reviews</p>
+                                <b> 
+                                    <p class="p3 p4">8.2</p>
+                                </b>
+                                <button class="btn" type="button">Show Price</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-xl-3 col-lg-3 col-md-2 col-12">
+                                 <img class="img img1 img2 img3 img4" src="https://cf.bstatic.com/xdata/images/hotel/square600/263823251.webp?k=33d4e521257884585d729cba1165f21e1d0e0c66e993eea58b46b9edd2059c1a&o=">
+                            </div>
+                            <div class="col-xl-5 col-md-5 col-12 class1 class2 class3">
+                                <h3>Shelton Guest House</h3>
+                                    <a class="link" href="#">F-8 Sector, Islamabad</a>
+                                    <a class="link link1" href="#">Show on map</a>
+                                    <p class="link">4.6 km from centre <br> Located in Islamabad, within 1.9 km of Shah Faisal Mosque and 14 km of Lake View Park, Shelton Guest House provides accommodation with a garden and free WiFi throughout the property as well as free...</p>
+                            </div>
+                            <div class="col-xl-3 col-md-3 col-12">
+                                <h5 class="h5">Very good</h5>
+                                    <br>
+                                    <p class="p2">262 reviews</p>
+                                <b> 
+                                    <p class="p3 p4">8.2</p>
+                                </b>
+                                <button class="btn" type="button">Show Price</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-xl-3 col-lg-3 col-md-2 col-12">
+                                 <img class="img img1 img2 img3 img4" src="https://cf.bstatic.com/xdata/images/hotel/square600/263823251.webp?k=33d4e521257884585d729cba1165f21e1d0e0c66e993eea58b46b9edd2059c1a&o=">
+                            </div>
+                            <div class="col-xl-5 col-md-5 col-12 class1 class2 class3">
+                                <h3>Shelton Guest House</h3>
+                                    <a class="link" href="#">F-8 Sector, Islamabad</a>
+                                    <a class="link link1" href="#">Show on map</a>
+                                    <p class="link">4.6 km from centre <br> Located in Islamabad, within 1.9 km of Shah Faisal Mosque and 14 km of Lake View Park, Shelton Guest House provides accommodation with a garden and free WiFi throughout the property as well as free...</p>
+                            </div>
+                            <div class="col-xl-3 col-md-3 col-12">
+                                <h5 class="h5">Very good</h5>
+                                    <br>
+                                    <p class="p2">262 reviews</p>
+                                <b> 
+                                    <p class="p3 p4">8.2</p>
+                                </b>
+                                <button class="btn" type="button">Show Price</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-xl-3 col-lg-3 col-md-2 col-12">
+                                 <img class="img img1 img2 img3 img4" src="https://cf.bstatic.com/xdata/images/hotel/square600/263823251.webp?k=33d4e521257884585d729cba1165f21e1d0e0c66e993eea58b46b9edd2059c1a&o=">
+                            </div>
+                            <div class="col-xl-5 col-md-5 col-12 class1 class2 class3">
+                                <h3>Shelton Guest House</h3>
+                                    <a class="link" href="#">F-8 Sector, Islamabad</a>
+                                    <a class="link link1" href="#">Show on map</a>
+                                    <p class="link">4.6 km from centre <br> Located in Islamabad, within 1.9 km of Shah Faisal Mosque and 14 km of Lake View Park, Shelton Guest House provides accommodation with a garden and free WiFi throughout the property as well as free...</p>
+                            </div>
+                            <div class="col-xl-3 col-md-3 col-12">
+                                <h5 class="h5">Very good</h5>
+                                    <br>
+                                    <p class="p2">262 reviews</p>
+                                <b> 
+                                    <p class="p3 p4">8.2</p>
+                                </b>
+                                <button class="btn" type="button">Show Price</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-xl-3 col-lg-3 col-md-2 col-12">
+                                 <img class="img img1 img2 img3 img4" src="https://cf.bstatic.com/xdata/images/hotel/square600/263823251.webp?k=33d4e521257884585d729cba1165f21e1d0e0c66e993eea58b46b9edd2059c1a&o=">
+                            </div>
+                            <div class="col-xl-5 col-md-5 col-12 class1 class2 class3">
+                                <h3>Shelton Guest House</h3>
+                                    <a class="link" href="#">F-8 Sector, Islamabad</a>
+                                    <a class="link link1" href="#">Show on map</a>
+                                    <p class="link">4.6 km from centre <br> Located in Islamabad, within 1.9 km of Shah Faisal Mosque and 14 km of Lake View Park, Shelton Guest House provides accommodation with a garden and free WiFi throughout the property as well as free...</p>
+                            </div>
+                            <div class="col-xl-3 col-md-3 col-12">
+                                <h5 class="h5">Very good</h5>
+                                    <br>
+                                    <p class="p2">262 reviews</p>
+                                <b> 
+                                    <p class="p3 p4">8.2</p>
+                                </b>
+                                <button class="btn" type="button">Show Price</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-xl-3 col-lg-3 col-md-2 col-12">
+                                 <img class="img img1 img2 img3 img4" src="https://cf.bstatic.com/xdata/images/hotel/square600/263823251.webp?k=33d4e521257884585d729cba1165f21e1d0e0c66e993eea58b46b9edd2059c1a&o=">
+                            </div>
+                            <div class="col-xl-5 col-md-5 col-12 class1 class2 class3">
+                                <h3>Shelton Guest House</h3>
+                                    <a class="link" href="#">F-8 Sector, Islamabad</a>
+                                    <a class="link link1" href="#">Show on map</a>
+                                    <p class="link">4.6 km from centre <br> Located in Islamabad, within 1.9 km of Shah Faisal Mosque and 14 km of Lake View Park, Shelton Guest House provides accommodation with a garden and free WiFi throughout the property as well as free...</p>
+                            </div>
+                            <div class="col-xl-3 col-md-3 col-12">
+                                <h5 class="h5">Very good</h5>
+                                    <br>
+                                    <p class="p2">262 reviews</p>
+                                <b> 
+                                    <p class="p3 p4">8.2</p>
+                                </b>
+                                <button class="btn" type="button">Show Price</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-xl-3 col-lg-3 col-md-2 col-12">
+                                 <img class="img img1 img2 img3 img4" src="https://cf.bstatic.com/xdata/images/hotel/square600/263823251.webp?k=33d4e521257884585d729cba1165f21e1d0e0c66e993eea58b46b9edd2059c1a&o=">
+                            </div>
+                            <div class="col-xl-5 col-md-5 col-12 class1 class2 class3">
+                                <h3>Shelton Guest House</h3>
+                                    <a class="link" href="#">F-8 Sector, Islamabad</a>
+                                    <a class="link link1" href="#">Show on map</a>
+                                    <p class="link">4.6 km from centre <br> Located in Islamabad, within 1.9 km of Shah Faisal Mosque and 14 km of Lake View Park, Shelton Guest House provides accommodation with a garden and free WiFi throughout the property as well as free...</p>
+                            </div>
+                            <div class="col-xl-3 col-md-3 col-12">
+                                <h5 class="h5">Very good</h5>
+                                    <br>
+                                    <p class="p2">262 reviews</p>
+                                <b> 
+                                    <p class="p3 p4">8.2</p>
+                                </b>
+                                <button class="btn" type="button">Show Price</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-xl-3 col-lg-3 col-md-2 col-12">
+                                 <img class="img img1 img2 img3 img4" src="https://cf.bstatic.com/xdata/images/hotel/square600/263823251.webp?k=33d4e521257884585d729cba1165f21e1d0e0c66e993eea58b46b9edd2059c1a&o=">
+                            </div>
+                            <div class="col-xl-5 col-md-5 col-12 class1 class2 class3">
+                                <h3>Shelton Guest House</h3>
+                                    <a class="link" href="#">F-8 Sector, Islamabad</a>
+                                    <a class="link link1" href="#">Show on map</a>
+                                    <p class="link">4.6 km from centre <br> Located in Islamabad, within 1.9 km of Shah Faisal Mosque and 14 km of Lake View Park, Shelton Guest House provides accommodation with a garden and free WiFi throughout the property as well as free...</p>
+                            </div>
+                            <div class="col-xl-3 col-md-3 col-12">
+                                <h5 class="h5">Very good</h5>
+                                    <br>
+                                    <p class="p2">262 reviews</p>
+                                <b> 
+                                    <p class="p3 p4">8.2</p>
+                                </b>
+                                <button class="btn" type="button">Show Price</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-xl-3 col-lg-3 col-md-2 col-12">
+                                 <img class="img img1 img2 img3 img4" src="https://cf.bstatic.com/xdata/images/hotel/square600/263823251.webp?k=33d4e521257884585d729cba1165f21e1d0e0c66e993eea58b46b9edd2059c1a&o=">
+                            </div>
+                            <div class="col-xl-5 col-md-5 col-12 class1 class2 class3">
+                                <h3>Shelton Guest House</h3>
+                                    <a class="link" href="#">F-8 Sector, Islamabad</a>
+                                    <a class="link link1" href="#">Show on map</a>
+                                    <p class="link">4.6 km from centre <br> Located in Islamabad, within 1.9 km of Shah Faisal Mosque and 14 km of Lake View Park, Shelton Guest House provides accommodation with a garden and free WiFi throughout the property as well as free...</p>
+                            </div>
+                            <div class="col-xl-3 col-md-3 col-12">
+                                <h5 class="h5">Very good</h5>
+                                    <br>
+                                    <p class="p2">262 reviews</p>
+                                <b> 
+                                    <p class="p3 p4">8.2</p>
+                                </b>
+                                <button class="btn" type="button">Show Price</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-xl-3 col-lg-3 col-md-2 col-12">
+                                 <img class="img img1 img2 img3 img4" src="https://cf.bstatic.com/xdata/images/hotel/square600/263823251.webp?k=33d4e521257884585d729cba1165f21e1d0e0c66e993eea58b46b9edd2059c1a&o=">
+                            </div>
+                            <div class="col-xl-5 col-md-5 col-12 class1 class2 class3">
+                                <h3>Shelton Guest House</h3>
+                                    <a class="link" href="#">F-8 Sector, Islamabad</a>
+                                    <a class="link link1" href="#">Show on map</a>
+                                    <p class="link">4.6 km from centre <br> Located in Islamabad, within 1.9 km of Shah Faisal Mosque and 14 km of Lake View Park, Shelton Guest House provides accommodation with a garden and free WiFi throughout the property as well as free...</p>
+                            </div>
+                            <div class="col-xl-3 col-md-3 col-12">
+                                <h5 class="h5">Very good</h5>
+                                    <br>
+                                    <p class="p2">262 reviews</p>
+                                <b> 
+                                    <p class="p3 p4">8.2</p>
+                                </b>
+                                <button class="btn" type="button">Show Price</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                
+			</div>
+		</div>
+	</div>
+
+
+</body>
+</html>

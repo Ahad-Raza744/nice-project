@@ -1,0 +1,191 @@
+    .col {
+            border: 1px solid;
+            border-radius: 5px;
+            border-color: gray;
+            width: 100%;
+            padding: 10px;
+        }
+        .p1{
+        	font-size: 20px;
+        	margin-left: 20px;
+        }
+        .check-box {
+            margin-left: 20px;
+        }
+        .num1{
+            margin-left: 375px;
+            margin-top: -30px;
+            font-size: 16px;
+        }
+        .separator {
+            margin: 20px 0;
+            border-bottom: 1px solid;
+        }
+        .container-custom {
+            margin-bottom: 20px;
+            padding: 15px;
+            border-bottom: 1px solid;
+            width: 420px;
+        }
+        .container-custom h5 {
+            font-size: 20px;
+        }
+        .form-text{
+        	font-size: 15px;
+        	margin-left: 5px;
+        	color: black;
+        }
+        .img{
+        	height: 250px;
+        }
+        .col-md-5{
+        	margin-left: 60px;
+        }
+        .link{
+        	font-size: 12px;
+        }
+        .link1{
+        	margin-left: 10px;
+        }
+        .h5{
+        	margin-left: 4px;
+        }
+        .p2{
+        	font-size: 13px;
+        	margin-top: -30px;
+        	margin-left: 15px;
+        }
+        .p3{
+        	border: 1px solid;
+        	margin-left: 80%;margin-top: -60px;
+        	padding: 5px;
+        	border-radius: 9px 9px 9px 0px;
+        	background: dodgerblue;
+        }
+        .section2{
+        	margin-left: 450px;
+        	margin-top: -346%;
+        }
+        .section3{
+           	margin-left: 450px;
+           	margin-top: -323%;
+        }
+        .section4{
+          	margin-left: 450px;
+          	margin-top: -300%;
+        }
+        .section5{
+        	margin-left: 450px;
+        	margin-top: -277%;
+        }
+        .section6{
+        	margin-left: 450px;
+        	margin-top: -254%;
+        }
+        .section7{
+        	margin-left: 450px;
+        	margin-top: -231%;
+        }
+        .section8{
+        	margin-left: 450px;
+        	margin-top: -208%;
+        }
+        .section9{
+        	margin-left: 450px;
+        	margin-top: -185%;
+        }
+         .section10{
+        	margin-left: 450px;
+        	margin-top: -162%;
+        }
+         .section11{
+        	margin-left: 450px;
+        	margin-top: -185%;
+        }
+         .section12{
+        	margin-left: 450px;
+        	margin-top: -139%;
+        } 
+        .section13{
+        	margin-left: 450px;
+        	margin-top: -116%;
+        }
+         .section14{
+        	margin-left: 450px;
+        	margin-top: -93%;
+        }
+         .section15{
+        	margin-left: 450px;
+        	margin-top: -70%;
+        }  
+        .section16{
+        	margin-left: 450px;
+        	margin-top: -47%;
+        }
+          .section17{
+        	margin-left: 450px;
+        	margin-top: -24%;
+        }
+        .btn{
+        	color: blue;
+        	border: 1px solid;
+        	margin-left: 20px;
+        }
+        .btn:hover{
+        	color: black;
+        	background: blue;
+        }
+
+        @media only screen and (max-width:768px){
+            .section-1{
+                display: none;
+            }
+            .img1{
+                height: 200px;
+            }
+            .class2{
+                margin-left: 100px;
+            }
+            .p4{
+                width: 40px;
+            }
+        } 
+        @media only screen and (width:1024px)
+        {
+            .section-1{
+                display: none;
+            }
+            .class1{
+                margin-left: 40px;
+            }
+            .btn{
+                color: black;
+                background: blue;
+            }
+            .btn:hover{
+                background: dodgerblue;
+            }
+
+        }
+        @media only screen and (max-width:425px){
+            .img2{
+                height: 350px;
+                width: 350px;
+            }
+            .class3{
+                margin-left: -5px;
+            }
+            .
+        }
+        @media only screen and (max-width:320px){
+            .img3{
+                width: 250px;
+                height: 250px;
+            }
+        }
+        @media only screen and (width:375px){
+            .img4{
+                width: 300px;
+                height: 300px;
+            }
+        }
